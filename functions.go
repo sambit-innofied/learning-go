@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func mainnn() {
 	var printValue string = "Hello Go!"
 	printMe(printValue)
 
@@ -31,7 +31,7 @@ func main() {
 		fmt.Printf("The result of the integer division is %v with remainder %v", result, remainder)
 	}
 
-	
+
 }
 
 func printMe(printValue string) {
