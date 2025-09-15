@@ -5,7 +5,7 @@ import (
 	"unicode/utf8"
 )
 
-func main(){
+func mainn(){
 	var number int = 3
 	fmt.Println(number)
 
@@ -24,5 +24,20 @@ func main(){
 
 	var myRune rune = 'a'
 	fmt.Println(myRune) //prints the ascii value of the 'a'
+
+	var myBoolean bool = true
+	fmt.Println(myBoolean)
+
+	// various ways to declare variables
+	// var myInt int = 1
+	// var myint  = 1
+	// myIntt := 1
+
+	myInt, myIntt := 1, 2
+	fmt.Println(myInt, myIntt) //myInt = 1, myIntt = 2
+
+	const pi float32 = 3.14
+	fmt.Println(pi)
+
 
 }
